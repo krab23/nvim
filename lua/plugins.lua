@@ -20,7 +20,7 @@ return {
     config = function()
       require("kanagawa").setup({
         theme = "dragon",
-        transparent = false})
+        transparent = true})
         vim.cmd.colorscheme "kanagawa-dragon"
     end
   },
