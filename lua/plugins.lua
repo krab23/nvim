@@ -8,8 +8,8 @@ return {
     config = function()
       require("catppuccin").setup({
         flavour = "frappe",
-        transparent_background = false})
-        --vim.cmd.colorscheme "catppuccin-frappe"
+        transparent_background = true})
+        vim.cmd.colorscheme "catppuccin-frappe"
     end
   },
   {
@@ -21,7 +21,7 @@ return {
       require("kanagawa").setup({
         theme = "dragon",
         transparent = true})
-        vim.cmd.colorscheme "kanagawa-dragon"
+        --vim.cmd.colorscheme "kanagawa-dragon"
     end
   },
 
